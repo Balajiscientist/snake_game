@@ -86,7 +86,7 @@ class Snake:
 class Game:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption("Snake game By balaj")
+        pygame.display.set_caption("Snake game")
 
         self.surface = pygame.display.set_mode((1000, 800))
         self.surface.fill(BACKGROUND_COLOR)
